@@ -1,1 +1,1 @@
-# GenAI-with-Google-Gemini
+# End to End GenAI with Google Gemini
