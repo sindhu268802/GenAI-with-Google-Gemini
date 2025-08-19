@@ -7,7 +7,7 @@ from PIL import Image
 
 import google.generativeai as genai
 
-genai.configure(api_key=os.getenv("AIzaSyBJqqtZCQRHKUhISkfRKZEi1jx7MrtX9UI"))
+genai.configure(api_key=os.getenv("GOOGLE_API_KEY"))
 
 # Initialize the Gemini Pro Vision model
 model = genai.GenerativeModel('gemini-2.5-pro')
@@ -58,4 +58,5 @@ if submit:
     image_data = input_image_details(uploaded_file)
     response=get_gemini_response(input_prompt,image_data,input)
     st.subheader("The Response is")
+
     st.write(response)
