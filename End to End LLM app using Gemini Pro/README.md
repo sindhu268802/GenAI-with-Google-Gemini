@@ -7,7 +7,7 @@ This project uses a simple **Streamlit web application** that uses **Google's Ge
 
 ## Set up requirements
 
-- Python 3.9+
+- Python 3.10+
 - Streamlit
 - python-dotenv
 - google-generativeai
