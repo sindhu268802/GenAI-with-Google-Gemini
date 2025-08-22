@@ -13,7 +13,7 @@ The app uses a `gemini-2.5-pro` model and ask users to upload an image of the in
 
 ## Set up requirements
 
-- Python 3.9+
+- Python 3.10+
 - Streamlit
 - python-dotenv
 - google-generativeai
